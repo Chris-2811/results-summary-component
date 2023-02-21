@@ -37,6 +37,7 @@ body {
 
 .card {
   max-width: 736px;
+  height: 512px;
   display: flex;
   background: #fff;
   margin: 284px auto;
@@ -100,12 +101,14 @@ body {
   font-size: 72px;
   font-weight: 800;
   line-height: 72px;
+  color: var(--white);
 }
 
 .card-left .circle:nth-child(2) {
   font-size: 18px;
   font-weight: 500;
   line-height: 23.45px;
+  color: var(--light-slate-blue);
 }
 
 /* Card right */
@@ -128,6 +131,9 @@ body {
 .card-right .result {
   display: flex;
   justify-content: space-between;
+  font-size: 18px;
+  line-height: 23.45px;
+  font-weight: 500;
 }
 
 .reaction,
@@ -142,6 +148,14 @@ body {
   margin-bottom: 16px;
   padding: 18px 16px;
   border-radius: 12px;
+}
+
+.card-right .results .stats {
+  color: var(--dark-gray-blue);
+}
+
+.card-right .results .stats .stat-light {
+  opacity: 0.5;
 }
 
 .result-1 {
