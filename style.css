@@ -53,7 +53,7 @@ body {
   color: #fff;
   min-width: 50%;
   text-align: center;
-  padding: 38px 54px 55px 54px;
+  padding: 38px 55px 55px 55px;
   border-radius: 32px;
 }
 
@@ -203,7 +203,7 @@ body {
   display: inline-block;
   background: var(--dark-gray-blue);
   color: var(--white);
-  padding: 17px 106px;
+  padding: 17px 106px 16px 106px;
   border-radius: 128px;
   text-decoration: none;
   font-size: 18px;
