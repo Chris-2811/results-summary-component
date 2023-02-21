@@ -105,11 +105,12 @@ body {
   margin-bottom: 4px;
 }
 
-.card-left .circle:nth-child(2) {
+.card-left .circle p:nth-child(2) {
   font-size: 18px;
   font-weight: 500;
   line-height: 23.45px;
-  color: var(--light-slate-blue);
+  color: #CAC9FF;
+  opacity: 0.5168;
 }
 
 /* Card right */
@@ -158,6 +159,7 @@ body {
 
 .card-right .results .stats .stat-light {
   opacity: 0.5;
+  margin-left: 8px;
 }
 
 .result-1 {
