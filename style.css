@@ -156,6 +156,7 @@ body {
 
 .card-right .results .stats {
   color: var(--dark-gray-blue);
+  font-weight: 700;
 }
 
 .card-right .results .stats .stat-light {
